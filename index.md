@@ -9,3 +9,6 @@ The following changes are for Part 3:
 
 Now I can link the [CSE15L LAB 2](https://ucsd-cse15l-w22.github.io/week/week2/) site 
 
+[Lab Report 1](lab-report-1-week-2.html)
+
+[Lab Report 1](https://abijitj.github.io/cse15l-lab-reports/lab-report-1-week-2.html)

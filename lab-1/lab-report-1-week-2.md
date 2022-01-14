@@ -1,5 +1,5 @@
-# **Lab Report #1**
 ## 14th Jan 2021
+# **Lab Report #1**
 
 ## **Part 1: Installing VSCode**
 You can download Visual Studio Code by going to [this link](https://code.visualstudio.com/download) and downloading the appropriate version for your operating system. 
@@ -9,6 +9,7 @@ Open the downloaded .exe file and follow the given instructions to download VSCo
 
 ![Image](vscode_opening_page.png)
 
+---
 ## **Part 2: Remotely Connecting**
 Now, comes the more interesting part. First, if you are using a Windows machine, make sure to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Next, find your course-specific account for CSE 15L over [here](https://sdacs.ucsd.edu/~icc/index.php). 
 
@@ -21,3 +22,13 @@ You can just type 'yes' and proceed. Next, type in your password and press enter
 ![Image](ssh_initial_page.png)
 
 You are now a client connected to the UCSD ieng6 servers. Everything you type on this terminal is being run on those servers. Congratulations!
+
+---
+## **Part 3: Trying Some Commands**
+Now, how do you navigate this terminal? There are several commands to help you do so. Some of them are listed below. 
+
+* 'cd [insert directory path]' - stands for "change directory." As the name implies it will change your current directory. 
+*  'ls' - shows the "non-hidden" files in your current directory. Example: ![Image](ex_ls.png)
+* 'ls -a' - shows all files in your current directory
+
+There are many other commands as well. But these will help you start navigating around the terminal. 

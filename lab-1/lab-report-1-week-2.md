@@ -42,3 +42,17 @@ Now it's nice that we can use this server. But there is almost no point (in our 
 This is demonstrated below.
 
 ![Image](scp_ex.png))
+
+---
+## **Part 5: Setting a SSH Key**
+You have probably realised by now, that you are requiried to type in your password every single time you call `ssh`. This can be very time-consuming. This part of the tutorial exists so that you no longer will have to repeatedly type your password. Let's set a SSH key. First you need to use the `ssh-keygen` command to generate a private and public key.
+
+![Image](ssh_keygen.png)
+
+Now, you need to copy the public key into the server's .ssh using scp. And voila! You should no longer require your password to access the server with ssh. 
+
+![Image](ssh_no_password.png)
+
+---
+
+

@@ -35,10 +35,4 @@ There are many other commands as well. But these will help you start navigating 
 
 ---
 ## **Part 4: Moving Files With `scp`**
-Now it's nice that we can use this server. But there is almost no point (in our case) if we can't run our files on the ieng6 servers. That's were the `scp` command comes in. It allows us to copy files from the client (your computer) to the servers. You format your command like: 
-
-`scp [file name] [server]`. 
-
-This is demonstrated below.
-
-![Image](scp_ex.png))
+Now it's nice that we can use this server. But there is almost no point (in our case) if we can't run our files on the ieng6 servers. That's were the `scp` command comes in. It allows us to copy files from the client (your computer) to the servers. This is demonstrated below. 

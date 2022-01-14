@@ -7,7 +7,7 @@ You can download Visual Studio Code by going to [this link](https://code.visuals
 ![Image](VSCode_download.png)
 Open the downloaded .exe file and follow the given instructions to download VSCode. Now, you are set with VSCode! When you open it, it will probably look like this (or slightly different depending on your OS): 
 
-![Image](vscode_opening_page.png)
+![Image](vscode_opening.png)
 
 ---
 ## **Part 2: Remotely Connecting**
@@ -45,7 +45,7 @@ This is demonstrated below.
 
 ---
 ## **Part 5: Setting a SSH Key**
-You have probably realised by now, that you are requiried to type in your password every single time you call `ssh`. This can be very time-consuming. This part of the tutorial exists so that you no longer will have to repeatedly type your password. Let's set a SSH key. First you need to use the `ssh-keygen` command to generate a private and public key.
+You have probably realised by now, that you are requiried to type in your password every single time you call `ssh`. This can be very time-consuming. This part of the tutorial exists so that you no longer will have to repeatedly type your password. Let's set a SSH key. First you need to use the `ssh-keygen` command to generate a private and public key. If you have a Windows machine, follow some extra steps about `ssh-add` over [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). 
 
 ![Image](ssh_keygen.png)
 
@@ -54,5 +54,11 @@ Now, you need to copy the public key into the server's .ssh using scp. And voila
 ![Image](ssh_no_password.png)
 
 ---
+## **Part 6: Optimizing Remote Running**
+This section aims to highlight a couple of ways to make remote running more efficient and easier. For example, while running the command on your client if you place further commands at the end in quotes, you won't have to enter the server. You will log in, run the command, and log out automatically. This is showcased below. 
 
+![Image](running_more_smoothly.png)
 
+Another way to optimize your terminal usage is to use semicolons to run multiple commands in one line. Moreover, most terminals allow you to use the up arrow on your keyboard to recall previous commands. 
+
+Thus, this wraps up your SSH tutorial and introduction to remote running. Hopefully you were successful. 

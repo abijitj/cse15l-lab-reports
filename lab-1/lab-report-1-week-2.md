@@ -1,5 +1,5 @@
-## 14th Jan 2021
 # **Lab Report #1**
+## 14th Jan 2021
 
 ## **Part 1: Installing VSCode**
 You can download Visual Studio Code by going to [this link](https://code.visualstudio.com/download) and downloading the appropriate version for your operating system. 

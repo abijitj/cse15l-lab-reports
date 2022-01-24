@@ -27,9 +27,9 @@ You are now a client connected to the UCSD ieng6 servers. Everything you type on
 ## **Part 3: Trying Some Commands**
 Now, how do you navigate this terminal? There are several commands to help you do so. Some of them are listed below. 
 
-* 'cd [insert directory path]' - stands for "change directory." As the name implies it will change your current directory. 
-*  'ls' - shows the "non-hidden" files in your current directory. Example: ![Image](ex_ls.png)
-* 'ls -a' - shows all files in your current directory
+* `cd [insert directory path]` - stands for "change directory." As the name implies it will change your current directory. 
+*  `ls` - shows the "non-hidden" files in your current directory. Example: ![Image](ex_ls.png)
+* `ls -a` - shows all files in your current directory
 
 There are many other commands as well. But these will help you start navigating around the terminal. 
 

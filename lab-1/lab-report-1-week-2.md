@@ -49,7 +49,7 @@ You have probably realised by now, that you are requiried to type in your passwo
 
 ![Image](ssh_keygen.png)
 
-Now, you need to copy the public key into the server's .ssh using scp. And voila! You should no longer require your password to access the server with ssh. 
+Now, you need to copy the public key into the server's `.ssh` using `scp`. And voila! You should no longer require your password to access the server with `ssh`. 
 
 ![Image](ssh_no_password.png)
 

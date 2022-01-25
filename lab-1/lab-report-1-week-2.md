@@ -17,7 +17,7 @@ Now head over to VSCode and open the terminal within it. And type the following 
 
 ![Image](first_ssh.png)
 
-You can just type 'yes' and proceed. Next, type in your password and press enter. Note that as you type in your password nothing will appear on your terminal. This is normal! Your keyboard didn't suddenly stop working. The characters are simply not visible. Your terminal will now look something like this: 
+You can just type `yes` and proceed. Next, type in your password and press enter. Note that as you type in your password nothing will appear on your terminal. This is normal! Your keyboard didn't suddenly stop working. The characters are simply not visible. Your terminal will now look something like this: 
 
 ![Image](ssh_initial_page.png)
 

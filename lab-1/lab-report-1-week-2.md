@@ -61,4 +61,8 @@ This section aims to highlight a couple of ways to make remote running more effi
 
 Another way to optimize your terminal usage is to use semicolons to run multiple commands in one line. Moreover, most terminals allow you to use the up arrow on your keyboard to recall previous commands. 
 
+By particularly using these two commands I was able to optimize my saving and run time to from more than 20 keystrokes to around 4-5 keystrokes or mouse clicks. By simply using the up arrow, I was able to recall previous commands. Additionally, I used a semicolon to combine `javac WhereAmI.java; java WhereAmI` into one line, saving atleast one more keystroke. A screenshot of this process is shown below. 
+
+![Image](keystrokes.png)
+
 Thus, this wraps up your SSH tutorial and introduction to remote running. Hopefully you were successful. 

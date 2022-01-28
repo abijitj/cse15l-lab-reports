@@ -1,14 +1,13 @@
-Random words over here!
-Testing...
+# CSE15L Lab Reports
 
-**This text was added offline on GitHub Desktop**
+<p align="center">
 
-The following changes are for Part 3:
+    ![Image](misc_images\lab_report_image.jpg)
 
-![Image](Screenshot 2022-01-13 114810.png)
+    [CSE15L LAB #1](https://abijitj.github.io/cse15l-lab-reports/lab-1/lab-report-1-week-2) - Week 2
 
-Now I can link the [CSE15L LAB 2](https://ucsd-cse15l-w22.github.io/week/week2/) site 
+    [CSE15L LAB #2](https://abijitj.github.io/cse15l-lab-reports/lab-2/lab-report-2-week-4) - Week 4
 
-[Lab Report 1](lab-report-1-week-2.html)
+</p>
 
-[Lab Report 1](https://abijitj.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+

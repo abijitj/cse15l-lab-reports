@@ -24,6 +24,6 @@ Symptom of error:
 
 ![Image](infiniteloop.png)
 
-The symptom of this error was that the program took exceedingly long to run and in the end resulted in a `java.lang.OutOfMemoryError`. This is often a sign of an infinite loop, which in this case was the bug because we didn't account for the file ending in a `]` leading to the loop infinitely running. 
+The symptom of this error was that the program took exceedingly long to run and in the end resulted in a `java.lang.OutOfMemoryError`. This is often a sign of an infinite loop, which in this case was the bug because we didn't account for the file not ending in a `]` leading to the while loop infinitely running. 
 
 # Error #3

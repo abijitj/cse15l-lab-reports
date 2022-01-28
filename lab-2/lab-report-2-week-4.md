@@ -32,12 +32,12 @@ The symptom of this error was that the program took exceedingly long to run and 
 ## Technical Error: Typo leading to IndexOutOfBounds exception.
 
 ![Image](indexoutofboundscommit.png)
-Link to failing md file -> [Failing test case](https://github.com/mariawang2002826/markdown-parse/blob/main/test-file-3.md)
+Link to failing md file -> [Failing test case](https://github.com/abijitj/markdown-parse/blob/main/test-file-3.md)
 
 Symptom of error: 
 
 ![Image](indexoutofboundsconsole.png)
 
-In this scenario, the output caused an `IndexOutOfBoundsException`. In this case, it was because of a typo in the code that caused this problem, whereby, the index didn't update as was required. In this case, many different inputs could have lead to this error. 
+In this scenario, the output caused an `IndexOutOfBoundsException`. In this case, the bug was that our program didn't account for a file that didn't contain any links or in other words, it didn't contain `[]()` syntax. Therefore, the `indexOf` method would return -1, causing an `IndexOutOfBoundsException`. 
 
 Thank you for reading.

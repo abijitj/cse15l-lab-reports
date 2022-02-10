@@ -7,7 +7,28 @@ Lab Report #3 Instructions -> [Here](https://ucsd-cse15l-w22.github.io/week/week
 
 # Streamlining `ssh` Configuration 
 
-## Editing a `.ssh/config` file
+One way to simplify the `ssh`-ing procedure is by creating a configuration file that reduces our terminal input to log in. For example, I will change my terminal input from  `ssh cse15lwi22apq@ieng6.ucsd.edu` to `ssh ieng6`.
 
+## Editing a `.ssh/config` file
+I was able to access my `.ssh` directory in this path:\
+`C:\Users\[username]\.sh `
+Then, I used VSCode to edit the file in the following way. 
+
+![Image](config-file.png)
+
+
+## Logging in to the remote server
+Now, I should be able to log in by simply typing in the shorter alias, `ssh ieng6`
+
+![Image](shorter-ssh-login.png)
+
+Additionally, since I have `ssh-keygen` set up I don't have to type in my password every time. 
+
+## SCP with shorter alias
+It is possible to run all the normal commands that was previously possible, but now with a shorter alias. For example `scp` is still possible. 
+
+![Image](scp-with-alias.png)
+
+It was successful!
 
 

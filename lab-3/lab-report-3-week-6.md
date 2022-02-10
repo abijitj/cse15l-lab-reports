@@ -25,7 +25,7 @@ Now, I should be able to log in by simply typing in the shorter alias, `ssh ieng
 Additionally, since I have `ssh-keygen` set up I don't have to type in my password every time. 
 
 ## SCP with shorter alias
-It is possible to run all the normal commands that was previously possible, but now with a shorter alias. For example `scp` is still possible. 
+It is possible to run all the normal commands that was previously possible, but now with a shorter alias. For example `scp` is still possible. Below, I copied over this exact markdown file (`lab-report-3-week-6.md`) from my local computer to the remote ieng6 servers. 
 
 ![Image](scp-with-alias.png)
 

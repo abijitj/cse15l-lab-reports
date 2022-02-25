@@ -3,7 +3,7 @@
 
 [List of all Lab Reports](https://abijitj.github.io/cse15l-lab-reports/)
 
-Lab Report #3 Instructions -> [Here](https://ucsd-cse15l-w22.github.io/week/week8/)
+Lab Report #4 Instructions -> [Here](https://ucsd-cse15l-w22.github.io/week/week8/)
 
 Note: All my expected results were based on the "preview" shown by VSCode of the given markdown file. 
 
